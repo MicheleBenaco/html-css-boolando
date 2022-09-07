@@ -7,7 +7,7 @@
 
 /* footer */
 
-footer{
+header{
 
     width: 100%;
     height: 80px;
@@ -16,7 +16,7 @@ footer{
     margin-bottom: 50px;
 }
 
-.flex-footer{
+.flex-header{
     display: flex;
     width: 80%;
     margin: 0 auto;
@@ -44,7 +44,6 @@ a{
 
 main{
     width: 80%;
-    border:1px solid black;
     margin: 0 auto;
 
 }
@@ -83,6 +82,19 @@ main{
    
 }
 
+.heart{
+    position: absolute;
+    display: block;
+    min-width: 50px;
+    max-width: 100px;
+    margin: -390px 200px ;
+    padding: 5px;
+
+
+}
+
+
+
 h3{
     font-size: 10px;
 }
@@ -109,4 +121,57 @@ h5{
 span{
     color: black;
     text-decoration: line-through;
+}
+
+/* hower */
+
+.col:hover .seconda-immagine{
+    display: inline-block;
+}
+
+
+.seconda-immagine{
+
+    display: none;
+}
+
+
+.col:hover .prima-immagine{
+
+    display: none;
+}
+
+
+
+/* footer */
+
+
+footer{
+
+    margin-top: 90px;
+    width: 100%;
+    background-color: rgb(21, 21, 24);
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.f1{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+h6{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
 }
